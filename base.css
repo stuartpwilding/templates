@@ -6,7 +6,7 @@ TABLE { border-collapse: collapse; border-spacing: 0; }
 UL, OL { list-style: none; }
 
 INPUT, SELECT, BUTTON { vertical-align: middle; font-family: inherit; font-size: 1em; } 
-TEXTAREA { font-family: inherit; font-size: 1em;  overflow: auto; }
+TEXTAREA { font-family: inherit; font-size: 1em; overflow: auto; }
 INPUT[type="checkbox"] { vertical-align: bottom; }
 INPUT[type="button"], INPUT[type="submit"], BUTTON { cursor: pointer; }
 INPUT[type="search"] { -webkit-appearance: textfield; -webkit-box-sizing: content-box; }
