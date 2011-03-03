@@ -1,0 +1,14 @@
+BODY, H1, H2, H3, H4, H5, H6, PRE, P, BLOCKQUOTE, ADDRESS, DL, DT, DD, UL, OL, LI, TABLE, CAPTION, TH, TD, FORM, FIELDSET, LEGEND { margin: 0; padding: 0; }
+H1, H2, H3, H4, H5, H6 { font-size: 1em; }
+IMG, FIELDSET, ABBR, ACRONYM { border: 0; }
+ADDRESS { font-style: normal; } 
+TABLE { border-collapse: collapse; border-spacing: 0; }
+UL, OL { list-style: none; }
+
+INPUT, SELECT, BUTTON { vertical-align: middle; font-family: inherit; font-size: 1em; } 
+TEXTAREA { font-family: inherit; font-size: 1em; }
+INPUT[type="checkbox"] { vertical-align: bottom; }
+INPUT[type="button"], INPUT[type="submit"], BUTTON { cursor: pointer; }
+INPUT[type="search"] { -webkit-appearance: textfield; -webkit-box-sizing: content-box; }
+::-webkit-search-decoration { display: none; }
+::-webkit-input-placeholder { color: inherit; }
