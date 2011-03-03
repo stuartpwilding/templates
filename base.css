@@ -1,14 +1,36 @@
-BODY, H1, H2, H3, H4, H5, H6, PRE, P, BLOCKQUOTE, ADDRESS, DL, DT, DD, UL, OL, LI, TABLE, CAPTION, TH, TD, FORM, FIELDSET, LEGEND { margin: 0; padding: 0; }
-H1, H2, H3, H4, H5, H6 { font-size: 1em; }
-IMG, FIELDSET, ABBR, ACRONYM { border: 0; }
-ADDRESS { font-style: normal; } 
-TABLE { border-collapse: collapse; border-spacing: 0; }
-UL, OL { list-style: none; }
+/* html reset */ 
+body, h1, h2, h3, h4, h5, h6, pre, p, blockquote, address, dl, dt, dd, ul, ol, li, table, caption, th, td, form, fieldset, legend { margin: 0; padding: 0; }
+h1, h2, h3, h4, h5, h6 { font-size: 1em; }
+img, fieldset, abbr, acronym { border: 0; }
+address { font-style: normal; } 
+table { border-collapse: collapse; border-spacing: 0; }
+ul, ol { list-style: none; }
 
-INPUT, SELECT, BUTTON { vertical-align: middle; font-family: inherit; font-size: 1em; } 
-TEXTAREA { font-family: inherit; font-size: 1em; overflow: auto; }
-INPUT[type="checkbox"] { vertical-align: bottom; }
-INPUT[type="button"], INPUT[type="submit"], BUTTON { cursor: pointer; }
-INPUT[type="search"] { -webkit-appearance: textfield; -webkit-box-sizing: content-box; }
+
+/* global styles */
+html { overflow-y: scroll; }
+
+body { line-height: 1.5; }
+
+h1, h2, h3, h4, h5, h6, li { line-height: 1.25; }
+
+p, dd { margin-bottom: 1em; }	
+	
+hr { height: 1px; border: 0; border-top: 1px solid; margin-bottom: 1em; clear: both; }
+
+dt { font-weight: bold; }
+
+td { vertical-align: top; }
+tbody th { text-align: left; }
+
+sup, sub { vertical-align: 0; position: relative; }
+sup { bottom: 1ex; }
+sub { top: 0.8ex; }
+
+input, select, button { vertical-align: middle; font-family: inherit; font-size: 1em; } 
+textarea { font-family: inherit; font-size: 1em; overflow: auto; }
+input[type="checkbox"] { vertical-align: bottom; }
+input[type="button"], input[type="submit"], button { cursor: pointer; }
+input[type="search"] { -webkit-appearance: textfield; -webkit-box-sizing: content-box; }
 ::-webkit-search-decoration { display: none; }
 ::-webkit-input-placeholder { color: inherit; }
