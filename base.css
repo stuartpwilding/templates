@@ -1,3 +1,5 @@
+/* -- BEGIN: html reset --------------------------------------------------- */ 
+
 body, h1, h2, h3, h4, h5, h6, pre, p, address, li, dl, dt, dd, table, caption, th, td, form, fieldset, legend { margin: 0; padding: 0; }
 h1, h2, h3, h4, h5, h6 { font-size: 1em; }
 fieldset, abbr, acronym { border: 0; }
@@ -8,11 +10,13 @@ table { border-collapse: collapse; border-spacing: 0; }
 td { vertical-align: top; }
 tbody th { text-align: left; }
 
+legend { color: inherit; }
 input, select, button { vertical-align: middle; font-family: inherit; font-size: 1em; line-height: normal; } 
-textarea { font-family: inherit; font-size: 1em; overflow: auto; }
+textarea { font-family: inherit; font-size: 1em; overflow: auto; resize: vertical; }
 input[type="button"], input[type="submit"], input[type="reset"], button { cursor: pointer; }
 input[disabled], button[disabled] { cursor: default; }
 input[type="radio"], input[type="checkbox"] { vertical-align: 0%; }
+button { -webkit-appearance: push-button; }
 input[type="search"] { -webkit-appearance: none; -webkit-box-sizing: content-box; }
 ::-webkit-search-decoration { display: none; }
 ::-webkit-input-placeholder { color: inherit; }
@@ -23,7 +27,7 @@ sub { top: 0.8ex; }
 
 
 html { overflow-y: scroll; }
-p, dd { margin-bottom: 1em; }		
+p, dd { margin-bottom: 1em; }  	
 hr { height: 1px; border: 0; border-top: 1px solid; margin-bottom: 1em; clear: both; }
 
 blockquote { margin: 1em 40px; }
@@ -53,3 +57,5 @@ td.right { text-align: right; }
 .bar:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
 
 .text { display: table-cell; }
+
+/* -------------------------------------------------- END: global styles -- */
