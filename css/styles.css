@@ -1,6 +1,6 @@
-/* -- BEGIN: html reset --------------------------------------------------- */ 
-
+/*html reset*/
 body, h1, h2, h3, h4, h5, h6, pre, p, address, li, dl, dt, dd, table, caption, th, td, form, fieldset, legend { margin: 0; padding: 0; }
+html { /*overflow-y: scroll;*/ -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 h1, h2, h3, h4, h5, h6 { font-size: 1em; }
 fieldset, abbr, acronym { border: 0; }
 img { border: 0; vertical-align: middle; }
@@ -8,7 +8,6 @@ address { font-style: normal; }
 
 table { border-collapse: collapse; border-spacing: 0; }
 td { vertical-align: top; }
-tbody th { text-align: left; }
 
 legend { color: inherit; }
 input, select, button { vertical-align: middle; font-family: inherit; font-size: 1em; line-height: normal; } 
@@ -17,34 +16,30 @@ input[type="button"], input[type="submit"], input[type="reset"], button { cursor
 input[disabled], button[disabled] { cursor: default; }
 input[type="radio"], input[type="checkbox"] { vertical-align: 0%; }
 button { -webkit-appearance: push-button; }
-input[type="search"] { -webkit-appearance: none; -webkit-box-sizing: content-box; }
-::-webkit-search-decoration { display: none; }
-::-webkit-input-placeholder { color: inherit; }
+input { -webkit-border-radius: 0; }
+
+p { margin-bottom: 1em; }  	
+hr { height: 1px; border: 0; border-top: 1px solid; margin-bottom: 1em; clear: both; }
 
 sup, sub { vertical-align: 0; position: relative; }
 sup { bottom: 1ex; }
 sub { top: 0.8ex; }
 
-
-html { overflow-y: scroll; }
-p, dd { margin-bottom: 1em; }  	
-hr { height: 1px; border: 0; border-top: 1px solid; margin-bottom: 1em; clear: both; }
-
 blockquote { margin: 1em 40px; }
 ul, ol { margin: 1em 0; padding: 0 0 0 2em; }
 
+
+/*global styles & helper classes*/
+body { }
+a { }
+a:hover { }
+
 .nav ul { list-style: none; margin: 0; padding: 0; }
 
-.img img,
-.figure img { display: block; }
-
-.align-left { float: left; }
-.align-right { float: right; }
 .clear { clear: both; height: 0; line-height: 0; }
 .hidden { position: absolute; top: -9999px; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
 .invisible { visibility: hidden; }
-
-td.right { text-align: right; }
+.nowrap { white-space: nowrap; }
 
 .header:after,
 .footer:after,
@@ -53,9 +48,9 @@ td.right { text-align: right; }
 .nav:after,
 .aside:after,
 
-.layout:after
-.bar:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+.cf:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
 
-.text { display: table-cell; }
-
-/* -------------------------------------------------- END: global styles -- */
+.ir { display: block; text-indent: -9999px; overflow: hidden; text-align: left; background-repeat: no-repeat; background-color: transparent; border: 0; }
+.ir a { display: block; background-repeat: no-repeat; background-color: transparent; }
+.ir br { display: none; }
+.ir li { list-style: none; }
