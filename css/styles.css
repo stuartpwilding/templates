@@ -11,6 +11,7 @@ td { vertical-align: top; }
 
 legend { color: inherit; }
 input, select, button { vertical-align: middle; font-family: inherit; font-size: 1em; line-height: normal; } 
+button, select, textarea, input:not([type="radio"]):not([type="checkbox"]) { margin: 0; }
 textarea { font-family: inherit; font-size: 1em; overflow: auto; resize: vertical; }
 input[type="button"], input[type="submit"], input[type="reset"], button { cursor: pointer; }
 input[disabled], button[disabled] { cursor: default; }
