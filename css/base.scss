@@ -79,6 +79,17 @@ label {
   line-height: normal;
 }
 
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  cursor: pointer;
+}
+
+[disabled] {
+  cursor: default;
+}
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -87,6 +98,7 @@ table {
 td,
 th {
   padding: 0;
+  line-height: normal;
 }
 
 
